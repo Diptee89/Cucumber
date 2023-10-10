@@ -1,0 +1,11 @@
+git init
+git config --global user.name "Diptee"
+git config --global user.email :dsingh@agility.com
+git add -A
+git commit -m "message"
+git add remote origin "https://github.com/Diptee89/CucumberFramework.git"
+git push -u origin master
+
+
+2nd time 
+

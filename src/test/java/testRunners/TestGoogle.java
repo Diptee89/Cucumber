@@ -23,8 +23,8 @@ public class TestGoogle {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://Google.com");
 		driver.findElement(By.cssSelector("textarea#APjFqb")).sendKeys("Selenium" + Keys.ENTER);
-//		 driver.findElement(By.cssSelector("h3.MBeuO")).click();
-//		 driver.navigate().back();
+		 driver.findElement(By.cssSelector("h3.MBeuO")).click();
+		 driver.navigate().back();
 	}
 
 }
